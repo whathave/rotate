@@ -3,4 +3,9 @@
 =======
 # rotate
 rotate.js base canvas
->>>>>>> c796e658fe793092a296c934a6223587298902a4
+当在点击事件中使用时，可如下使用
+$('.rotate').click(function(){
+  control.domClass='图片容器'；
+  control.trunRight;
+});
+即可实现图片旋转
